@@ -62,6 +62,12 @@ main{
     font-family: var(--corpo);
 }
 
+.logo-social{
+    display: flex;
+    justify-items: right;
+    width: 30px;
+}
+
 a{
     display: flex;
     justify-content: center;
