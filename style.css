@@ -43,3 +43,37 @@ body {
     font-size: 1.1rem;
     padding: 5px;
 }
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-link{
+    background-color: #ad2d2df6;
+    height: 10vh;
+    width: 80vw;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    font-family: var(--corpo);
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.box-link:hover{
+    border: 1px solid var(--padrao);
+    background-color: white;
+    color: var(--padrao);
+}
