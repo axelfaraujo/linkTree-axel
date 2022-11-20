@@ -45,7 +45,7 @@ body {
 
 
 .nome {
-    font-family: var(--letra3);
+    font-family: var(--sobre);
     color: white;
     padding-top: 50px;
     text-align: center;
@@ -60,7 +60,7 @@ body {
 }
 
 .sobre{
-    font-family: var(--sobre);
+    font-family: var(--letra3);
     color: white;
     text-align: center;
     font-size: 1rem;
@@ -75,7 +75,10 @@ main{
 }
 
 .box-link{
-    border: 2px solid white;
+    border: 1px solid rgb(255, 255, 255, 0.7);
+    background-color:rgb(255, 255, 255, 0.15) ;
+    backdrop-filter: blur(45px);
+    box-shadow: 1px 1px rgba(65, 65, 65, 0.192);
     height: 10vh;
     width: 80vw;
     padding: 10px;
@@ -100,7 +103,7 @@ main{
 }
 
 
-a {
+.box-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,6 +113,7 @@ a {
 }
 
 .box-link:hover{
+    background-color: #003d7e94;
     border: none;
     transition: 300ms ease-in-out;
 }
@@ -120,11 +124,18 @@ a {
 }
 
 
+.link-footer{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    justify-content: 15px;
+    align-items: baseline;
+}
 
 footer{
     text-align: center;
     padding: 10px;
     align-items: center;
     margin-bottom: 2px;
-    font-family: var(--sobre);
+    font-family: var(--letra3);
 }
